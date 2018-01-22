@@ -13,3 +13,8 @@ you will get this.
  http://localhost:8080/SpringSecurityOauth2/hello?access_token=a8cfc8da-0769-4f16-9d54-99f60c0c432c
  you will get this.
  "Hello spring security oauth2"
+ 
+#add aop interceptor
+Next,get token again by step 1,but this time you use username=user,password=user this account to get token,and do step 2 by this token,you will find prompt 
+"Account does not match",because in AccessControlImpl.java ,i only let account username=admin to access this resoureces 
+
