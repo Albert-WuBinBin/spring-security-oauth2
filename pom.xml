@@ -108,4 +108,7 @@
       <version>${aspectj.version}</version>
     </dependency>
   </dependencies>
+   <build>
+    <finalName>SpringSecurityOauth2</finalName>
+	</build>
 </project>
